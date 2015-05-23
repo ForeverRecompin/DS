@@ -3,4 +3,4 @@
 ## Python 
 ###### At DS/python/
 
-	Work in progress :exclamation:  
+	Work in progress. 
