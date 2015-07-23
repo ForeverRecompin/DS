@@ -53,7 +53,7 @@ int main()
 	s->top = -1;
 	s->array = malloc(s->capacity * sizeof(int));
 	int option,data;
-	
+
 	while(TRUE)
 	{
 		printf("1: isEmpty()\n2: isFull()\n3: push(...)\n4: pop()\n5: Exit\n");
@@ -68,8 +68,8 @@ int main()
 			printf("\t%d\n",isFull());
 		    }
 		    else if (option==3)
-		    {	
-			printf("\t"); 
+		    {
+			printf("\t");
 			scanf("\t%d",&data);
 			push(data);
 		    }
