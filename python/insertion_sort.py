@@ -4,6 +4,5 @@ def insertion_sort(lst):
         while lst[j] > key and j>=0:
             lst[j+1] = lst[j]
             j = j - 1
-            print(lst[j+1],j)
         lst[j+1] = key
     return lst
