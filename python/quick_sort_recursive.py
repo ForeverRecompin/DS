@@ -1,8 +1,15 @@
+'''import random
+
+l = random.sample(range(1,500),25)
+print("Original list: ",l)
+print("Sorted list: ",qs_rec(l))
+'''
+
 def qs_rec(lst,start = 0, end = None):
-    if end is None:
+    '''This function quick-sorts the given list from the start to end position and returns the sorted list.\nYou can specify a subset of the list for a sorted sub-list. '''
+    if end is  None:
         end = len(lst)-1
     lst = lst[start:(end+1)]
-    print(lst)
     if not lst:
         return []
     else:
