@@ -1,5 +1,5 @@
 def ps(n):
-    f, l = 1, n/2
+    f, l = 1, n/2+1
     while (f <= l):
         m = (f + (l-f)/2)
         print("m = ",m)
