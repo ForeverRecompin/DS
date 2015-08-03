@@ -10,7 +10,7 @@ def largest_bitonic(lst):
             else:
                 f = m + 1
         elif m-1 >= 0: #Extreme right
-            if lst[m] > lst[m] - 1:
+            if lst[m] > lst[m - 1]:
                 f = m
             else:
                 l = m - 1
