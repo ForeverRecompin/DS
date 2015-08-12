@@ -43,7 +43,7 @@ def rec_cp(px,py):
            p1,p2 = r1,r2
            dist = distance(r1[0],r1[1],r2[0],r2[1])
 
-        x_Qend = px[mid][1]
+        x_Qend = px[mid][0]
         y_S = [each for each in py if abs(x_Qend - each[0]) < delta]
         
         for i in range(len(y_S)):
