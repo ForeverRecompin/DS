@@ -51,8 +51,10 @@ def rec_cp(px,py):
             while (k < len(y_S)) and ((y_S[k][1] - y_S[i][1]) < delta):
                 if distance(y_S[k][0],y_S[k][1],y_S[i][0],y_S[i][1]) < dist:
                     p1,p2 = (y_S[k][0],y_S[k][1]),(y_S[i][0],y_S[i][1])
+                    dist = distance(y_S[k][0],y_S[k][1],y_S[i][0],y_S[i][1])
                 k+=1
         return p1,p2
 
-points = [(0,0), (-2,0), (4,0), (1,1),(3,3), (-2,2), (5,2)]
+#points = [(0,0), (-2,0), (4,0), (1,1),(3,3), (-2,2), (5,2)]
+points = [(0,0),(1,0),(0,1),(1.414,1.414)]
 print(closest_pair(points))

@@ -6,7 +6,7 @@ def stocks_finder(lst):
        d: Day of " " " 
     '''
     buy,sell = merge_sort(lst)
-    return buy,lst.index(buy),sell,lst.index(sell)
+    return buy,lst.index(buy)+1,sell,lst.index(sell)+1
 
 def merge_sort(lst, b = 0, s = 0):
 

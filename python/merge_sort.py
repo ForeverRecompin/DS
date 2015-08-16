@@ -11,6 +11,7 @@ def merge_sort(lst):
         return lst
 
 def merge(l,r):
+    print(len(l),len(r))
     aux_lst = []
     i, j,  = 0, 0
     while i < len(l) and j < len(r):
