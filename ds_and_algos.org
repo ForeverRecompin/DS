@@ -1,0 +1,20 @@
+* Dynamic Programming
+** Fibonacci Numbers
+** Binomial Coefficients
+** Edit Distance                                                     :Skiena:
+   When matching a pair of strings (Approximate/Inexact String Matching) Pattern string P and a Text string T, a cost function is defined which tells how far apart two strings are - Distance measure. It takes into account all /required changes: insertion, deletion, substitution/ to match P and T. A good distance measure captures the costs incurred due to these changes. Following cases of P and T are possible:
+1. Characters match
+2. Characters don't match:
+   1. Substitution: Replace a character in P to match T. e.g shot to spot.
+   2. Insertion: Insert a character in P. e.g har to hair.
+   3. Deletion: Delete a character in P. e.g hour to our.
+
+Recurrence:
+** Longest Increasing Sequence
+** Coin Change Problem
+** 0/1 Knapsack/Bin Packing Problem
+** Optimal Binary Search Tree
+** Multistage Graph
+** Bellman Ford Algorithm
+** Traveling Salesman Problem
+** Sequence Alignment
